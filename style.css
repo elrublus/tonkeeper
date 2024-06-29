@@ -1,0 +1,198 @@
+body {
+    padding-top: 70px;
+    background-color: rgba(7, 17, 53, 0.918);
+    margin: 3px;
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    top: 0;
+    position: fixed;
+    border: 2px solid rgb(11, 11, 75);
+    border-radius: 5px;
+    background-color: rgba(43, 43, 151, 0.959);
+    height: 80px;
+    width: 97.5%;
+    padding: 0 5px 5px 5px;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contLogo{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.nav a{
+    transition: scroll 0.5s ease-in-out;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+} 
+.nav-list a{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(96, 47, 143);
+}
+  
+#icono{
+    width: 60px;
+    height: 85px;
+}
+#h1{
+    margin: 0;
+    height: 40px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+    .menu-icon{
+        width: 40px;
+        font-size: 30px;
+        display: block;
+        cursor: pointer;
+        border: 2px rgb(2, 2, 2) solid;
+        text-align: center;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .nav.show{
+        display: flex;
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        background-color: rgb(35, 37, 37);
+        border: 2px rgb(2, 2, 2) solid;
+    }
+    .nav-list{
+        flex-direction: column;
+        padding: 0 20px;
+        
+    }
+}
+
+#video{
+    text-align: center;
+}
+div iframe{
+    margin-top: 25px;
+    border: 3px red solid;
+    border-radius: 5px;
+}
+
+section{
+    transition: box-shadow 0.3 seg ease;
+    margin: 10px;
+}
+section div:hover{
+    box-shadow: 0 3px 7px rgba(15, 15, 15, 0.568);
+}
+
+.h1div{
+    font-size: 35px;
+    color: rgb(173, 17, 17);
+}
+
+.divs{
+    margin: auto;
+    text-align: center;
+    color: rgb(241, 227, 227);
+    background-color: rgba(29, 29, 117, 0.514);
+    width: 500px;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
+#funct{
+    width: 270px;
+}
+#funct2{
+    width: 300px;
+}
+
+
+.expl{
+    font-size: large;
+    margin: 16px 7px;
+}
+
+button{
+    color: rgb(51, 51, 126);
+    background-color: rgba(12, 228, 23, 0.658);
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    border-style: dashed;
+    border-radius: 19px;
+    padding: 14px;
+    margin: 10px;
+}
+#boton{
+    border-style: none;
+    background-color: rgba(7, 17, 53, 0.918);
+}
+
+#add{
+    background-color: rgba(14, 73, 112, 0.788);
+    border: 3px rgb(146, 13, 13) dashed;
+    border-radius: 50px;
+}
+#add img{
+    width: 230px;
+}
+#add h3{
+    margin-bottom: 5px;
+}
+
+footer h2{
+    margin: 7px 7px 0 7px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(137, 160, 160);
+}
+footer h3{
+    width: 80px;
+    margin: 0 0 0 10px;
+}
+
+footer{
+    background-color: rgb(43, 43, 151);
+    height: 100px;
+    border-top: 2px black solid;
+    padding-bottom: 10px;
+}
+#tg{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+footer img{
+    height: 30px;
+}
+
+#follow {
+    text-align: center;
+}
+  
+.redes-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.redes {
+    margin: 0 10px;
+}
+  
